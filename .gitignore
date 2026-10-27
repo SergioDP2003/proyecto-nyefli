@@ -1,0 +1,23 @@
+# Build output
+target/
+*.class
+*.jar
+*.log
+
+# Secrets / local config
+.env
+*.env
+!.env.example
+application-local.properties
+
+# IDE
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.factorypath
+
+# OS
+Thumbs.db
+.DS_Store
